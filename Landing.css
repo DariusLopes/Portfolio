@@ -1,0 +1,61 @@
+html{
+  background-image: url(sigmund.jpg);
+}
+.myphoto{
+  border-radius: 100%;
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  width: 50%;  
+}
+/* Social Media Buttons */
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 100%;  
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  position: absolute;
+  left: 40%;
+  transform: translate(-40%, 0);
+}
+.fa-twitter:hover{
+  background: white;
+  color: #55ACEE;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.fa-linkedin:hover{
+  background: white;
+  color: #007bb5;
+}
+.fa-github{
+  background: #ffffff;
+  color: black;
+  position: absolute;
+  left: 60%;
+  transform: translate(-60%, 0);
+}
+.fa-github:hover{
+  background: black;
+  color: #ffffff;
+}
+/* Intro */
+h1{
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Sansita Swashed', Arial, Helvetica, sans-serif;
+}
